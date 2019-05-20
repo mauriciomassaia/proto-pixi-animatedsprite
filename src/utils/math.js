@@ -132,7 +132,8 @@ export function pointInPolygon (point, vs) {
     var xi = vs[i][0]; var yi = vs[i][1]
     var xj = vs[j][0]; var yj = vs[j][1]
 
-    var intersect = ((yi > y) != (yj > y)) &&
+    // var intersect = ((yi > y) != (yj > y)) &&
+    var intersect = ((yi > y) !== (yj > y)) &&
             (x < (xj - xi) * (y - yi) / (yj - yi) + xi)
     if (intersect) inside = !inside
   }

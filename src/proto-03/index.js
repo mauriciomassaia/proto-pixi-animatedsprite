@@ -44,14 +44,14 @@ function createAnimations (sprSheet) {
 
   for (var i = 0; i < h; i++) {
     for (var j = 0; j < w; j++) {
-      const anim = new AnimatedSprite(frames);
+      const anim = new AnimatedSprite(frames)
       anim.currentColor = 0
       anim.col = j
       anim.row = i
       anim.x = j * size
       anim.y = i * size
       anim.stop()
-      app.stage.addChild(anim);
+      app.stage.addChild(anim)
       anim.onLoop = () => {
         anim.currentColor += 1
         anim.currentColor %= COLORS.length

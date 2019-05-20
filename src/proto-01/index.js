@@ -33,11 +33,11 @@ function createAnimations (sprSheet) {
 
   for (var i = 0; i < h; i++) {
     for (var j = 0; j < w; j++) {
-      const anim = new AnimatedSprite(frames);
+      const anim = new AnimatedSprite(frames)
       anim.x = j * size
       anim.y = i * size
       anim.gotoAndPlay(((i + 1) * (j + 1)) % frames.length)
-      app.stage.addChild(anim);
+      app.stage.addChild(anim)
     }
   }
 }
