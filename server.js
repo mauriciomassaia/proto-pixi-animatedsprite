@@ -17,7 +17,6 @@ console.log('allprotos', allProtos)
 const latestProtos = allProtos.slice(-2)
 console.log('lastestProtos', latestProtos)
 
-
 // create a list with all proto-* webpack config files
 const compiler = webpack(latestProtos.map(
   ID => require('./internals/webpack.base')({ ID })
