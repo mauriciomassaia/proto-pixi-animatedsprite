@@ -31,6 +31,8 @@ Generate the index.html with a list of links for each prototype.
 
 ![./src/proto-02/ss.png](./src/proto-02/ss.png)
 
+![./src/proto-05/ss.png](./src/proto-05/ss.png)
+
 ---
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
