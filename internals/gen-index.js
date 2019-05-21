@@ -31,6 +31,7 @@ const tpl = `
     <meta charset="UTF-8">
     <title>${description}</title>
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet" type="text/css">
     <style>
       html, body, ul, li, div, h2, a {
         margin: 0;
@@ -38,7 +39,7 @@ const tpl = `
       }
 
       html, body {
-        font: 16px/1.5em "SF Mono", monospace;
+        font: 14px/1.5em "Roboto Slab", monospace;
       }
 
       h2 {
